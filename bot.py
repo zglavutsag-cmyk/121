@@ -4,6 +4,7 @@ TOKEN = os.getenv('TOKEN')
 GROUP_ID = int(os.getenv('GROUP_ID', 0))
 ADMIN_CHAT_ID = int(os.getenv('ADMIN_CHAT_ID', 0))
 EXCHANGE_RATE = int(os.getenv('EXCHANGE_RATE', 10))
+
 NOTIFY_FARM_THRESHOLD = 50  # Уведомлять при накоплении 50+ монет
 # ==================================
 
